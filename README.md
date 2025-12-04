@@ -2,11 +2,8 @@
 
 > Analyzing gender disparities in STEM education across 6 countries using time series forecasting to reveal when we'll reach parity - and why it's taking so long.
 
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
-[![Prophet](https://img.shields.io/badge/Prophet-1.1+-green.svg)](https://facebook.github.io/prophet/)
-[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
 
-## 🎯 Project Goal
+## Project Goal
 
 Investigate female representation in global STEM education, identify key barriers, and forecast future trends to inform policy decisions.
 
