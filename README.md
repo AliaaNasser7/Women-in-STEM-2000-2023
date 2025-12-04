@@ -13,7 +13,7 @@ Investigate female representation in global STEM education, identify key barrier
 
 ---
 
-## 📊 Dataset Overview
+## Dataset Overview
 
 - **Source:** [Kaggle - Women's Representation in Global STEM Education](https://www.kaggle.com/datasets/bismasajjad/womens-representation-in-global-stem-education)
 - **Records:** 344 observations
@@ -31,7 +31,7 @@ Investigate female representation in global STEM education, identify key barrier
 
 ---
 
-## 🔍 Key Findings
+## Key Findings
 
 ### 1️⃣ The Retention Crisis (Most Important Discovery)
 
@@ -64,7 +64,7 @@ Countries with **high female enrollment** also have **high dropout rates**! This
 
 ---
 
-## 🛠️ Methodology
+## Methodology
 
 ### Phase 1: Data Exploration
 ```python
@@ -86,8 +86,8 @@ No strong feature-target correlations → Model worse than predicting the mean!
 ### Phase 3: Model Selection - Why Prophet?
 
 **Attempted:**
-- ❌ Linear Regression → R² = -0.017 (failed - needs correlations)
-- ✅ Prophet → Reasonable forecasts (designed for time series)
+-  Linear Regression → R² = -0.017 (failed - needs correlations)
+-  Prophet → Reasonable forecasts (designed for time series)
 
 **Why Prophet Succeeded:**
 1. **Doesn't need correlations** - analyzes sequential patterns directly
@@ -100,12 +100,11 @@ No strong feature-target correlations → Model worse than predicting the mean!
 ✓ Trained on historical data (2000-2023)
 ✓ Projected trends through 2030
 ✓ Generated confidence intervals
-✓ Per-country forecasts
 ```
 
 ---
 
-## 📈 Results Summary
+##  Results Summary
 
 ### Global Predictions (2024-2030)
 
